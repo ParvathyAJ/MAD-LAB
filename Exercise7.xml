@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="150dp"
+android:background="@android:color/holo_blue_dark"
+android:padding="10dp">
+<TextView
+android:layout_width="wrap_content"
+android:padding="10dp"
+android:text="Examination"
+android:textSize="20dp"
+android:textStyle="bold"/>
+<TextView
+android:layout_width="wrap_content"
+android:padding="10dp"
+android:text="Board"
+android:textSize="20dp"
+android:textStyle="bold"/>
+<TextView
+android:layout_width="wrap_content"
+android:padding="10dp"
+android:text="Percentage"
+android:textSize="20dp"
+android:textStyle="bold"/>
+<TextView
+android:layout_width="wrap_content"
+android:padding="10dp"
+android:text="YOP"
+android:textSize="20dp"
+android:textStyle="bold"/>
+</TableRow>
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="150dp"
+android:background="#99ccff"
+android:padding="10dp">
+<TextView
+android:text="Class X"
+android:textSize="20dp" />
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"></EditText>
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"> </EditText>
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"> </EditText>
+
+
+</TableRow>
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="150dp"
+android:background="#99ccff"
+android:padding="10dp">
+<TextView
+android:text="Class XII"
+android:textSize="20dp" />
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"></EditText>
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"> </EditText>
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"> </EditText>
+
+</TableRow>
+<TableRow
+android:layout_width="match_parent"
+android:layout_height="150dp"
+android:background="#99ccff"
+android:padding="10dp">
+<TextView
+android:text="Graduation"
+android:textSize="20dp" />
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"></EditText>
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"> </EditText>
+<EditText
+android:background="@android:color/white"
+android:padding="5dp"
+android:layout_margin="5dp"> </EditText>
+
+
+</TableRow>
+<TableRow
+android:layout_gravity="center"
+android:layout_marginLeft="100dp">
+<Button
+android:id="@+id/submit"
+android:text="SUBMIT"
+/>
+</TableRow>
+
+</TableLayout>
