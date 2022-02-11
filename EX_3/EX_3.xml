@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TableRow
+        android:id="@+id/firstrow"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" >
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Username"
+        android:textSize="30dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_marginRight="25dp"
+        />
+    </TableRow>
+    <TableRow android:id="@+id/secondrow"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:textSize="30dp"
+            android:layout_marginRight="25dp"/>
+
+        <EditText
+            android:id="@+id/Passwd"
+            android:inputType="textPassword"
+            android:layout_width="215dp"
+            android:layout_marginRight="25dp"
+            />
+
+    </TableRow>
+
+    <Button android:id="@+id/OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="OK"/>
+
+</TableLayout>
